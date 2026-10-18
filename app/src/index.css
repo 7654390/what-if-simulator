@@ -48,6 +48,29 @@
   }
 }
 
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #121211;
+  --surface: #1a1a19;
+  --surface-raised: #242423;
+  --border: #2f2f2d;
+  --grid: #262624;
+  --track: #2a2a28;
+  --track-soft: #21211f;
+  --text-primary: #f0efec;
+  --text-secondary: #c3c2b7;
+  --text-muted: #8f8e86;
+  --fan: #3987e5;
+  --fan-soft: #18263a;
+  --ghost: #c3c2b7;
+  --marker: #5c5b56;
+  --debt: #e66767;
+  --good: #3fb950;
+  --warning: #e3a03a;
+  --critical: #e66767;
+  --critical-soft: #3a1d1d;
+}
+
 body {
   margin: 0;
   background: var(--bg);
