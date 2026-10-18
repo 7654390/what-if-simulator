@@ -2,6 +2,10 @@
 
 Deterministische Monte-Carlo-Engine für persönliche Finanz- und Lebensszenarien in Deutschland. TypeScript strict, ES2022, keine Laufzeit-Abhängigkeiten und kein UI. **Keine Finanzberatung.**
 
+## Cockpit
+
+Das interaktive Frontend liegt in [`app/`](app/README.md): `cd app && npm ci && npm run dev`.
+
 ## Installation und Entwicklung
 
 Node.js ab 22.12 (getestet mit Node 24), npm und das vorhandene Checkout verwenden:
